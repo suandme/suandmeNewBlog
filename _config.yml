@@ -105,4 +105,4 @@ deploy:
   repo: https://github.com/suandme/suandmeNewBlog
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
-  message: '右邊有標籤、標籤雲'
+  message: '增加圖'
