@@ -425,6 +425,7 @@ body {
 .nav-icon:hover,
 .main-nav-link:hover {
   opacity: 1;
+  color: #fff;
 }
 .nav-icon {
   text-align: center;
