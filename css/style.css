@@ -172,6 +172,34 @@ body {
 .mobile-nav-on #wrap {
   left: 280px;
 }
+.fullPage #main {
+  width: 100%;
+  float: none;
+}
+.fullPage .article-meta,
+.fullPage .article-header,
+.fullPage .article-footer {
+  display: none;
+}
+.underline {
+  position: relative;
+}
+.underline-1{
+  padding: 0 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.underline-1::after {
+  position: absolute;
+    content: "";
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true);
+    width: 150px;
+    height: 36px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    left: 0px;
+ 
+}
 @media screen and (min-width: 768px) {
   #main {
     display: inline;
@@ -381,7 +409,8 @@ body {
 .main-nav-link {
   float: left;
   color: #fff;
-  opacity: 0.6;
+  /* opacity: 0.6; */
+  font-size: 26px;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
