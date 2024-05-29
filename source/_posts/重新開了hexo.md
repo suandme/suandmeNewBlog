@@ -2,6 +2,9 @@
 title: 重新開了hexo
 date: 2024-05-28 21:02:34
 tags:
+    - hexo
+categories:
+    - 2024
 ---
 
 ## 重新開了hexo

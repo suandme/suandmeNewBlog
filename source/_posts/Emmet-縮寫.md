@@ -2,7 +2,9 @@
 title: Emmet 縮寫
 date: 2024-05-29 19:57:45
 tags:
-    -Emmet
+    - Emmet
+categories:
+    - 2024
 ---
 ## Wrap with Abbreviation 使用方式
 
@@ -20,5 +22,5 @@ ul>li*>a
 
 *最新資訊
 *休閒鞋類
-**工作鞋類
-兒童鞋類
+*工作鞋類
+*兒童鞋類

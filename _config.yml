@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: themes
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,4 +105,4 @@ deploy:
   repo: https://github.com/suandme/suandmeNewBlog
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
-  message: 'hexo 首頁樣式調整'
+  message: '右邊有標籤、標籤雲'
