@@ -105,4 +105,4 @@ deploy:
   repo: https://github.com/suandme/suandmeNewBlog
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
-  message: 'hexo 設定'
+  message: 'hexo 首頁樣式調整'
