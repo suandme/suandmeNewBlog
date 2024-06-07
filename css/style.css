@@ -371,7 +371,7 @@ body {
   height: 100%;
   background: url("images/banner3.jpg") center ;
   background-size: cover;
-  background-position-y: top;
+  background-position-y: center;
   z-index: -1;
 }
 #header-title {
@@ -409,9 +409,9 @@ body {
 .nav-icon,
 .main-nav-link {
   float: left;
-  color: #000000;
+  color: #ffffff;
   /* opacity: 0.6; */
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
@@ -425,7 +425,7 @@ body {
 .nav-icon:hover,
 .main-nav-link:hover {
   opacity: 1;
-  color: #fff;
+  color: #000000;
 }
 .nav-icon {
   text-align: center;
@@ -437,13 +437,17 @@ body {
   cursor: pointer;
 }
 .main-nav-link {
-  font-weight: 300;
+  
   letter-spacing: 1px;
 }
-
+.nav-search-btn{
+  display: none;
+}
 @media screen and (max-width: 479px) {
   .main-nav-link {
     display: none;
+    color: #000;
+    font-size: 20px;
   }
 }
 #main-nav-toggle {
@@ -1071,7 +1075,7 @@ a.article-title:hover {
   color: #ddd;
 }
 #footer {
-  background: #f59227;
+  background: #eeeeee;
   padding: 50px 0;
   border-top: 1px solid #ddd;
   color: #000;
