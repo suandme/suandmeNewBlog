@@ -105,4 +105,4 @@ deploy:
   repo: https://github.com/suandme/suandmeNewBlog
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
-  message: '增加圖'
+  message: '心得'
