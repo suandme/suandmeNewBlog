@@ -412,7 +412,7 @@ body {
   color: #ffffff;
   /* opacity: 0.6; */
   font-size: 20px;
-  font-weight: bold;;
+  /* font-weight: bold;; */
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
@@ -425,7 +425,11 @@ body {
 .nav-icon:hover,
 .main-nav-link:hover {
   opacity: 1;
-  color: #000000;
+  
+}
+.main-nav-link:hover {
+  padding :5px 15px;
+  border-bottom: 0.6rem solid #aebf52;
 }
 .nav-icon {
   text-align: center;
@@ -440,9 +444,11 @@ body {
   
   letter-spacing: 1px;
 }
+
 .nav-search-btn{
   display: none;
 }
+
 @media screen and (max-width: 479px) {
   .main-nav-link {
     display: none;
